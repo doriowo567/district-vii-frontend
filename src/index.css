@@ -1,0 +1,77 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  font-family:Arial,sans-serif;
+}
+
+.login-page{
+  display:flex;
+  height:100vh;
+}
+
+.left-side{
+  flex:1;
+  background:black;
+  color:white;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.right-side{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  padding:40px;
+  gap:15px;
+}
+
+input{
+  padding:12px;
+}
+
+button{
+  padding:12px;
+  cursor:pointer;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  padding:20px;
+  background:black;
+  color:white;
+}
+
+.hero{
+  padding:80px;
+  text-align:center;
+}
+
+.products{
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:20px;
+  padding:40px;
+}
+
+.card{
+  border:1px solid #ddd;
+  padding:20px;
+}
+
+.image{
+  height:200px;
+  background:#ddd;
+  margin-bottom:15px;
+}
+
+footer{
+  text-align:center;
+  padding:30px;
+}
